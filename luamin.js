@@ -17,7 +17,7 @@
 
 	/*--------------------------------------------------------------------------*/
 
-	var luaparse = root.luaparse || require('luaparse');
+	var luaparse = root.luaparse || require('oxyc-luaparse');
 	luaparse.defaultOptions.comments = false;
 	luaparse.defaultOptions.scope = true;
 	var parse = luaparse.parse;
